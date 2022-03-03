@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://boom.nokji.ga/sitemap.xml
