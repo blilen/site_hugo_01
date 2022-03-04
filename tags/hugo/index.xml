@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kjs on 牢骚满腹</title>
-    <link>https://boom.nokji.ga/kj/</link>
-    <description>Recent content in Kjs on 牢骚满腹</description>
+    <title>hugo on 牢骚满腹</title>
+    <link>https://boom.nokji.ga/tags/hugo/</link>
+    <description>Recent content in hugo on 牢骚满腹</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
-    <lastBuildDate>Fri, 04 Mar 2022 09:42:52 +0800</lastBuildDate><atom:link href="https://boom.nokji.ga/kj/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 09:42:52 +0800</lastBuildDate><atom:link href="https://boom.nokji.ga/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>为啥这个分类它所有文章都有啊</title>
       <link>https://boom.nokji.ga/kj/202203040942/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://boom.nokji.ga/kj/202203040942/</guid>
       <description>为啥这个分类它所有文章都有啊。按他的介绍来说的话应该是点进去一个分类的话，只有这一个分类的文章才对，但是我点进去之后，我所有写的文章都有。 但是在那个标签里面确实只有这个标签下面的文章才会显示，如果不是</description>
-    </item>
-    
-    <item>
-      <title>推荐 V2ray</title>
-      <link>https://boom.nokji.ga/kj/202203031910/</link>
-      <pubDate>Thu, 03 Mar 2022 19:10:37 +0800</pubDate>
-      
-      <guid>https://boom.nokji.ga/kj/202203031910/</guid>
-      <description>V2ray绝对是超级好用的软件。 不接受任何反驳。 就是自己搭建和使用的话，需要一点点计算机技术知识。 不过，这都是小问题了。 啦啦啦，我是翻墙小行家。</description>
     </item>
     
   </channel>

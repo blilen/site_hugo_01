@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://boom.nokji.ga/tags/hugo/</loc>
+    <lastmod>2022-03-04T09:42:52+08:00</lastmod>
+  </url><url>
     <loc>https://boom.nokji.ga/kj/</loc>
-    <lastmod>2022-03-03T19:10:37+08:00</lastmod>
+    <lastmod>2022-03-04T09:42:52+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.nokji.ga/kj/202203040942/</loc>
+    <lastmod>2022-03-04T09:42:52+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.nokji.ga/tags/%E4%B8%BB%E9%A2%98/</loc>
+    <lastmod>2022-03-04T09:42:52+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.nokji.ga/</loc>
+    <lastmod>2022-03-04T09:42:52+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.nokji.ga/rc/</loc>
+    <lastmod>2022-03-04T09:13:17+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.nokji.ga/tags/yubikey/</loc>
+    <lastmod>2022-03-04T09:13:17+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.nokji.ga/rc/202203040913/</loc>
+    <lastmod>2022-03-04T09:13:17+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.nokji.ga/rc/202203032251/</loc>
+    <lastmod>2022-03-03T22:52:01+08:00</lastmod>
   </url><url>
     <loc>https://boom.nokji.ga/tags/v2ray/</loc>
     <lastmod>2022-03-03T19:10:37+08:00</lastmod>
@@ -11,17 +35,11 @@
     <loc>https://boom.nokji.ga/kj/202203031910/</loc>
     <lastmod>2022-03-03T19:10:37+08:00</lastmod>
   </url><url>
-    <loc>https://boom.nokji.ga/</loc>
-    <lastmod>2022-03-03T19:10:37+08:00</lastmod>
-  </url><url>
     <loc>https://boom.nokji.ga/tags/%E7%BF%BB%E5%A2%99/</loc>
     <lastmod>2022-03-03T19:10:37+08:00</lastmod>
   </url><url>
     <loc>https://boom.nokji.ga/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2022-03-03T19:10:37+08:00</lastmod>
-  </url><url>
-    <loc>https://boom.nokji.ga/rc/</loc>
-    <lastmod>2022-03-03T17:42:08+08:00</lastmod>
   </url><url>
     <loc>https://boom.nokji.ga/rc/202203031741/</loc>
     <lastmod>2022-03-03T17:42:08+08:00</lastmod>
@@ -41,7 +59,7 @@
     <loc>https://boom.nokji.ga/happy/202203031537/</loc>
     <lastmod>2022-03-03T15:37:17+08:00</lastmod>
   </url><url>
-    <loc>https://boom.nokji.ga/rc/202203301/</loc>
+    <loc>https://boom.nokji.ga/rc/202203031524/</loc>
     <lastmod>2022-03-03T15:24:03+08:00</lastmod>
   </url><url>
     <loc>https://boom.nokji.ga/tags/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
