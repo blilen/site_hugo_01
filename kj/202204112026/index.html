@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="HandheldFriendly" content="True" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="generator" content="Hugo 0.93.1" />
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/logo/favicon-16x16.png">
+<link rel="manifest" href="/assets/logo/site.webmanifest">
+<link rel="mask-icon" href="/assets/logo/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#eeeeee">
+
+
+<title>自建KMS服务器激活Windows - 牢骚满腹</title>
+
+
+<meta name="author" content="linmo" />
+
+
+<meta name="description" content="自建KMS服务器激活Windows" />
+
+
+
+<meta property="og:title" content="自建KMS服务器激活Windows" />
+<meta name="twitter:title" content="自建KMS服务器激活Windows" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://boom.moli.ga/kj/202204112026/" /><meta property="og:description" content="自建KMS服务器激活Windows" />
+<meta name="twitter:description" content="自建KMS服务器激活Windows" /><meta name="twitter:card" content="summary" /><meta property="article:published_time" content="2022-04-11T20:26:48+08:00" /><meta property="article:modified_time" content="2022-04-11T20:26:48+08:00" />
+
+
+<style>
+    @media (prefers-color-scheme: dark) {
+        body[data-theme='auto'] img {
+            filter: brightness(60%);
+        }
+    }
+
+    body[data-theme='dark'] img {
+        filter: brightness(60%);
+    }
+</style>
+
+
+
+
+<link rel="stylesheet" href="https://boom.moli.ga/assets/css/fuji.min.css" />
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" />
+
+
+
+
+
+
+
+</head>
+
+<body
+  data-theme="auto"
+  data-theme-auto='true'
+  >
+    <script data-cfasync="false">
+  
+  var fujiThemeData = localStorage.getItem('fuji_data-theme');
+  
+  if (!fujiThemeData) {
+    localStorage.setItem('fuji_data-theme', 'auto');
+  } else {
+    
+    if (fujiThemeData !== 'auto') {
+      document.body.setAttribute('data-theme', fujiThemeData === 'dark' ? 'dark' : 'light');
+    }
+  }
+</script>
+
+    <header>
+    <div class="container-lg clearfix">
+        <div class="col-12 header">
+            <a class="title-main" href="https://boom.moli.ga/">牢骚满腹</a>
+            
+            <span class="title-sub">说些垃圾话，也许违法？</span>
+            
+        </div>
+    </div>
+</header>
+
+    <main>
+        <div class="container-lg clearfix">
+            
+            <div class="col-12 col-md-9 float-left content">
+                
+<article>
+    
+    <h2 class="post-item post-title">
+        <a href="https://boom.moli.ga/kj/202204112026/">自建KMS服务器激活Windows</a>
+    </h2>
+    <div class="post-item post-meta">
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2022-04-11</span>
+
+<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;1469 字</span>
+
+<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;无标签</span>
+
+    </div>
+    
+    <div class="post-content markdown-body">
+        <h1 id="自建kms服务器激活windowshttpsblogfutrimecomzh-cnpe887aae5bbbakmse69c8de58aa1e599a8e6bf80e6b4bbwindows"><a href="https://blog.futrime.com/zh-cn/p/%E8%87%AA%E5%BB%BAkms%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%BF%80%E6%B4%BBwindows/" target="_blank">自建KMS服务器激活Windows</a></h1>
+<hr>
+<p>如果不想承受高昂的正版Windows购买费用，也不想承受各类AutoKMS一键激活工具可能携带威胁程序的风险，那么何不自己搭建激活服务器呢？</p>
+<p>本文不鼓励使用盗版软件的行为，如果您在商业领域使用Windows或者具有经济条件，强烈建议您前往官网购买正版Windows以避免法律纠纷，获得最好的软件体验。</p>
+<p>事实上，您应当要知道，安装了Windows 10后，即使没有正版许可证也是能够正常使用的。唯二的代价是：（一）右下角常驻的的激活提示和弹出激活提示；（二）无法修改部分设置，主要是个性化设置。因此，是否需要采用此方法使用盗版激活的Windows，请斟酌损益。</p>
+<hr>
+<p>众所周知，正版Windows 10是十分昂贵的：</p>
+<p><img class="img-zoomable" src="https://i.loli.net/2021/01/31/iwnuWe6xCBTpbmJ.png" alt="正版Windows价格" />
+</p>
+<p>而对于由于硬件性能或者软件兼容性而不得不使用旧版本Windows的用户来说，其使用的Windows版本大多已经终止支持：</p>
+<p><a href="https://www.microsoft.com/zh-cn/windows/windows-7-end-of-life-support-information" target="_blank"><img class="img-zoomable" src="https://i.loli.net/2021/01/31/jeQBYNZaoc31giO.png" alt="Windows 7停止支持" />
+</a></p>
+<p>在搜索引擎中，可以查询到各种各样的离线KMS激活工具，包括KMSPico、AutoKMS、KMS Activator等等。但是这一类工具往往需要申请管理员权限，在相互转载内容的互联网国情下，我们难以溯本追因，寻找到工具最初发布的地方；又或者这个发布的地方早就已经下线了。而如果在各种下载站点下载，我们又无法保证这个工具是否被打包了其它各类威胁软件。因此使用这类软件的用户，就不得不承担自己的隐私数据有可能被泄露的风险。</p>
+<p>在淘宝、京东等电商上搜索 <code>Windows密钥</code> 等关键字可以找到大量的价格仅有几元钱的所谓“正版Windows激活码”：</p>
+<p><img class="img-zoomable" src="https://i.loli.net/2021/01/31/sPzy1TvVGFixwYL.png" alt="淘宝搜索" />
+</p>
+<p>三四年前，我也常常使用这种方式激活我的Windows，但是后来发现，这类激活方式往往存在激活时间有限的问题；并且因为这类密钥往往来自企业批量购买流出，部分企业会采取对于员工激活的系统进行一定的审查的策略，所以用户的计算机有可能会被访问到，因此也并不太安全。具体请见<a href="https://www.bilibili.com/video/BV1Bt411Y7wd" target="_blank">5块钱的win10激活码能用么？淘宝密钥背后的秘密：盗版系统有什么危害？</a>。</p>
+<p>在如此多的方案都存在各种各样的问题的情况下，到底有没有什么方案是比较好用的呢？</p>
+<p>有，那就是使用开源软件，自己搭建KMS服务器。由于是开源软件，有着一定的社区基础，可以排除具有威胁软件的可能。另外因为是自己搭建服务器，可以保证稳定性。</p>
+<p>目前来说，在GitHub上，实现这种功能的软件中，社群基础最大的是 <a href="https://github.com/SystemRage/py-kms" target="_blank">py-kms</a>.</p>
+<p>安全起见，强烈建议使用Docker方式配置，如果还不会使用Docker，请参见：<a href="https://blog.futrime.com/zh-cn/p/docker%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/" target="_blank">Docker的安装配置</a>、<a href="https://blog.futrime.com/zh-cn/p/docker%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/" target="_blank">Docker的基本使用</a>。</p>
+<p>其它安装方式也受到支持，详见<a href="https://py-kms.readthedocs.io/en/latest/Getting%20Started.html" target="_blank">Getting Started</a>.</p>
+<p>以Docker为例，我们只需要一行命令：</p>
+<pre><code class="language-bash">docker run -d --restart always -p 1688:1688 pykmsorg/py-kms
+</code></pre>
+<p>随后在需要激活的Windows系统中进行以下操作。由于所有操作都是使用Windows自带命令，因此十分安全。</p>
+<p>首先，在<a href="https://py-kms.readthedocs.io/en/latest/Keys.html" target="_blank">GLVK Keys</a>查询自己需要的许可证密钥。以Windows 10家庭中文版为例，是 <code>7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH</code> .</p>
+<p>然后以管理员模式打开Powershell或命令提示符，在Windows 10中，右键开始图标，选择 <code>Windows Powershell(管理员)</code> 即可。</p>
+<p>在弹出的窗口中依次运行以下命令：</p>
+<p>1.卸载许可证</p>
+<pre><code class="language-sh">slmgr /upk
+</code></pre>
+<ol start="2">
+<li>安装许可证</li>
+</ol>
+<pre><code class="language-sh">slmgr /ipk &lt;刚才查询到的许可证密钥&gt;
+</code></pre>
+<ol start="3">
+<li>设置kms服务器地址</li>
+</ol>
+<pre><code class="language-sh">slmgr /skms &lt;搭建KMS服务的服务器的IP地址，本机则是127.0.0.1&gt;
+</code></pre>
+<ol start="4">
+<li>激活操作</li>
+</ol>
+<pre><code class="language-sh">slmgr /ato
+</code></pre>
+<p>随后激活就完成了，会有相应提示。如果提示无法联系到服务器，请尝试ping一下服务器，确认是否可以访问。另外，不建议在本机搭建，因为Windows 10在某些情况下，访问本机会有问题。</p>
+<h3 id="参考链接">参考链接：</h3>
+<ol>
+<li><a href="https://github.com/SystemRage/py-kms" target="_blank">https://github.com/SystemRage/py-kms</a></li>
+<li><a href="https://py-kms.readthedocs.io/" target="_blank">https://py-kms.readthedocs.io</a></li>
+</ol>
+<hr>
+<p>ps：没能成功使用，不知道什么原因。</p>
+<p>#Windows #激活软件 #kms</p>
+
+    </div>
+</article>
+
+
+
+
+            </div>
+            <aside class="col-12 col-md-3 float-left sidebar">
+    
+    <div class="sidebar-item sidebar-pages">
+        <h3>页面</h3>
+        <ul>
+            
+            <li>
+                <a href="/">首页</a>
+            </li>
+            
+            <li>
+                <a href="/rc/">日常</a>
+            </li>
+            
+            <li>
+                <a href="/happy/">快乐</a>
+            </li>
+            
+            <li>
+                <a href="/kj/">科技</a>
+            </li>
+            
+            <li>
+                <a href="/baoliu-1/">保留-目前空</a>
+            </li>
+            
+            <li>
+                <a href="/index.xml">RSS</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-links">
+        <h3>链接</h3>
+        <ul>
+            
+            <li>
+                <a href="https://www.bilibili.com/anime" target="_blank"><span>Bilibili</span></a>
+            </li>
+            
+            <li>
+                <a href="https://github.com/" target="_blank"><span>GitHub</span></a>
+            </li>
+            
+            <li>
+                <a href="https://twitter.com/" target="_blank"><span>Twitter</span></a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-tags">
+        <h3>标签</h3>
+        <div>
+            
+            <span>
+                <a href="/tags/happy/">happy</a>
+            </span>
+            
+            <span>
+                <a href="/tags/hugo/">hugo</a>
+            </span>
+            
+            <span>
+                <a href="/tags/test/">test</a>
+            </span>
+            
+            <span>
+                <a href="/tags/v2ray/">V2ray</a>
+            </span>
+            
+            <span>
+                <a href="/tags/yubikey/">yubikey</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E4%B8%BB%E9%A2%98/">主题</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E5%8F%98%E6%80%81/">变态</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E5%9B%B0/">困</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E5%B0%81%E5%9F%8E/">封城</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E5%B7%A5%E4%BD%9C/">工作</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">我的第一篇文章</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E6%8E%A8%E8%8D%90/">推荐</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E6%97%A0%E8%81%8A/">无聊</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%94%B5%E8%A7%86%E5%89%A7/">电视剧</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%A8%E8%8D%90/">电视剧推荐</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%96%AB%E6%83%85/">疫情</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%9B%B8%E4%BA%B2/">相亲</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%9D%A1%E8%A7%89/">睡觉</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%BF%BB%E5%A2%99/">翻墙</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/">软件推荐</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E9%82%AF%E9%83%B8/">邯郸</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E9%97%B2%E8%B0%88/">闲谈</a>
+            </span>
+            
+        </div>
+    </div>
+    <div class="sidebar-item sidebar-toc">
+        <h3>目录</h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#参考链接">参考链接：</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+</aside>
+
+        </div>
+        <div class="btn">
+    <div class="btn-menu" id="btn-menu">
+        <i class="iconfont icon-grid-sharp"></i>
+    </div>
+    <div class="btn-toggle-mode">
+        <i class="iconfont icon-contrast-sharp"></i>
+    </div>
+    <div class="btn-scroll-top">
+        <i class="iconfont icon-chevron-up-circle-sharp"></i>
+    </div>
+</div>
+<aside class="sidebar-mobile" style="display: none;">
+  <div class="sidebar-wrapper">
+    
+    <div class="sidebar-item sidebar-pages">
+        <h3>页面</h3>
+        <ul>
+            
+            <li>
+                <a href="/">首页</a>
+            </li>
+            
+            <li>
+                <a href="/rc/">日常</a>
+            </li>
+            
+            <li>
+                <a href="/happy/">快乐</a>
+            </li>
+            
+            <li>
+                <a href="/kj/">科技</a>
+            </li>
+            
+            <li>
+                <a href="/baoliu-1/">保留-目前空</a>
+            </li>
+            
+            <li>
+                <a href="/index.xml">RSS</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-links">
+        <h3>链接</h3>
+        <ul>
+            
+            <li>
+                <a href="https://www.bilibili.com/anime" target="_blank"><span>Bilibili</span></a>
+            </li>
+            
+            <li>
+                <a href="https://github.com/" target="_blank"><span>GitHub</span></a>
+            </li>
+            
+            <li>
+                <a href="https://twitter.com/" target="_blank"><span>Twitter</span></a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-tags">
+        <h3>标签</h3>
+        <div>
+            
+            <span>
+                <a href="/tags/happy/">happy</a>
+            </span>
+            
+            <span>
+                <a href="/tags/hugo/">hugo</a>
+            </span>
+            
+            <span>
+                <a href="/tags/test/">test</a>
+            </span>
+            
+            <span>
+                <a href="/tags/v2ray/">V2ray</a>
+            </span>
+            
+            <span>
+                <a href="/tags/yubikey/">yubikey</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E4%B8%BB%E9%A2%98/">主题</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E5%8F%98%E6%80%81/">变态</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E5%9B%B0/">困</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E5%B0%81%E5%9F%8E/">封城</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E5%B7%A5%E4%BD%9C/">工作</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">我的第一篇文章</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E6%8E%A8%E8%8D%90/">推荐</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E6%97%A0%E8%81%8A/">无聊</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%94%B5%E8%A7%86%E5%89%A7/">电视剧</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%A8%E8%8D%90/">电视剧推荐</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%96%AB%E6%83%85/">疫情</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%9B%B8%E4%BA%B2/">相亲</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%9D%A1%E8%A7%89/">睡觉</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E7%BF%BB%E5%A2%99/">翻墙</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/">软件推荐</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E9%82%AF%E9%83%B8/">邯郸</a>
+            </span>
+            
+            <span>
+                <a href="/tags/%E9%97%B2%E8%B0%88/">闲谈</a>
+            </span>
+            
+        </div>
+    </div>
+    
+    
+    
+    <div class="sidebar-item sidebar-toc">
+        <h3>目录</h3>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#参考链接">参考链接：</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+    
+    
+  </div>
+</aside>
+    </main>
+
+    <footer>
+    <div class="container-lg clearfix">
+        <div class="col-12 footer">
+            
+            <span>&copy; 2020-2022
+                <a href="https://boom.moli.ga/">linmo</a>
+                
+                | 基于 <a href="https://github.com/dsrkafuu/hugo-theme-fuji/"
+                   target="_blank">Fuji-v2</a> &amp; <a href="https://gohugo.io/"
+                                                    target="_blank">Hugo</a> 构建
+            </span>
+        </div>
+    </div>
+</footer>
+
+    
+<script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-core.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+
+<script defer src="/assets/js/fuji.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script>
+  (function () {
+    function parseBasePath(basePath, rawURL) {
+      if (!/^\/[^/]/.test(rawURL)) {
+        return rawURL;
+      }
+      return rawURL.replace(/^\//, basePath + '/').replace(/\/\//g, '/');
+    }
+    
+    var pContainers = document.querySelectorAll('.content article .post-aplayer');
+    if (pContainers && pContainers.length > 0) {
+      pContainers.forEach(function (container) {
+        var attrs = ['urls', 'names', 'artists', 'covers', 'base'];
+        attrs = attrs.map(function (attr) {
+          var arr = container.getAttribute('data-' + attr).replace(/( |%20)/ig, '').split(',');
+          if (arr.length > 0){
+            return arr.map(function (val) {
+              return String(val).trim();
+            });
+          } else {
+            return attr;
+          }
+        });
+        var basePath = new URL(attrs[4][0] || '/', 'https://example.org').pathname;
+        var audio = [];
+        for (var i = 0; i < attrs[0].length; i++) {
+          var a = {
+            name: attrs[1][i],
+            url: parseBasePath(basePath, attrs[0][i]),
+          };
+          (typeof attrs[2] !== 'string') && (a.artist = attrs[2][i]);
+          (typeof attrs[3] !== 'string') && (a.cover = parseBasePath(basePath, attrs[3][i]));
+          audio.push(a);
+        }
+        new APlayer({
+          container: container,
+          theme: '#8f82bc',
+          volume: 0.1,
+          listFolded: true,
+          audio: audio
+        });
+      });
+    }
+    
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      var issueTocEle = document.querySelector('.sidebar-toc');
+      if (issueTocEle) {
+        var newTocEle = issueTocEle.cloneNode(true);
+        issueTocEle.parentNode.replaceChild(newTocEle, issueTocEle);
+      }
+    });
+  })();
+</script>
+
+
+</body>
+
+</html>

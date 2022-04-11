@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://boom.moli.ga/rc/</loc>
-    <lastmod>2022-03-31T17:15:02+08:00</lastmod>
+    <loc>https://boom.moli.ga/kj/</loc>
+    <lastmod>2022-04-11T20:30:06+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/rc/202203311715/</loc>
-    <lastmod>2022-03-31T17:15:02+08:00</lastmod>
+    <loc>https://boom.moli.ga/kj/202204112030/</loc>
+    <lastmod>2022-04-11T20:30:06+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/</loc>
+    <lastmod>2022-04-11T20:30:06+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/kj/202204112026/</loc>
+    <lastmod>2022-04-11T20:26:48+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/rc/</loc>
+    <lastmod>2022-04-11T20:24:13+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/rc/202204112024/</loc>
+    <lastmod>2022-04-11T20:24:13+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/tags/%E5%B0%81%E5%9F%8E/</loc>
+    <lastmod>2022-04-07T21:40:22+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/tags/%E9%82%AF%E9%83%B8/</loc>
+    <lastmod>2022-04-07T21:40:22+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/rc/202204072140/</loc>
+    <lastmod>2022-04-07T21:40:22+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/rc/202203311715/</loc>
     <lastmod>2022-03-31T17:15:02+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/rc/202203311434/</loc>
@@ -92,9 +113,6 @@
     <loc>https://boom.moli.ga/tags/hugo/</loc>
     <lastmod>2022-03-04T09:42:52+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/kj/</loc>
-    <lastmod>2022-03-04T09:42:52+08:00</lastmod>
-  </url><url>
     <loc>https://boom.moli.ga/kj/202203040942/</loc>
     <lastmod>2022-03-04T09:42:52+08:00</lastmod>
   </url><url>
@@ -145,5 +163,7 @@
   </url><url>
     <loc>https://boom.moli.ga/tags/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2022-03-03T15:24:03+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/rc/untitled/</loc>
   </url>
 </urlset>
