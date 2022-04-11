@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on 牢骚满腹</title>
+    <link>https://boom.moli.ga/tags/windows/</link>
+    <description>Recent content in Windows on 牢骚满腹</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <lastBuildDate>Mon, 11 Apr 2022 20:26:48 +0800</lastBuildDate><atom:link href="https://boom.moli.ga/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自建KMS服务器激活Windows</title>
+      <link>https://boom.moli.ga/kj/202204112026/</link>
+      <pubDate>Mon, 11 Apr 2022 20:26:48 +0800</pubDate>
+      
+      <guid>https://boom.moli.ga/kj/202204112026/</guid>
+      <description>自建KMS服务器激活Windows 如果不想承受高昂的正版Windows购买费用，也不想承受各类AutoKMS一键激活工具可能携带威胁程序的风险，那么何不自己搭建激活服务器呢？ 本文不鼓励使用盗版软件的行</description>
+    </item>
+    
+  </channel>
+</rss>
