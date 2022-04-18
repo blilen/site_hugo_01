@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://boom.moli.ga/rc/</loc>
+    <lastmod>2022-04-18T20:38:58+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/rc/202204182038/</loc>
+    <lastmod>2022-04-18T20:38:58+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/</loc>
+    <lastmod>2022-04-18T20:38:58+08:00</lastmod>
+  </url><url>
     <loc>https://boom.moli.ga/kj/</loc>
     <lastmod>2022-04-11T20:30:06+08:00</lastmod>
   </url><url>
@@ -17,9 +26,6 @@
     <loc>https://boom.moli.ga/tags/%E6%BF%80%E6%B4%BB/</loc>
     <lastmod>2022-04-11T20:30:06+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/</loc>
-    <lastmod>2022-04-11T20:30:06+08:00</lastmod>
-  </url><url>
     <loc>https://boom.moli.ga/tags/%E7%A0%B4%E8%A7%A3/</loc>
     <lastmod>2022-04-11T20:30:06+08:00</lastmod>
   </url><url>
@@ -28,9 +34,6 @@
   </url><url>
     <loc>https://boom.moli.ga/kj/202204112026/</loc>
     <lastmod>2022-04-11T20:26:48+08:00</lastmod>
-  </url><url>
-    <loc>https://boom.moli.ga/rc/</loc>
-    <lastmod>2022-04-11T20:24:13+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/rc/202204112024/</loc>
     <lastmod>2022-04-11T20:24:13+08:00</lastmod>
