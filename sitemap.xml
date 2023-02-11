@@ -3,9 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://boom.moli.ga/rc/</loc>
-    <lastmod>2022-11-12T07:39:25+08:00</lastmod>
+    <lastmod>2023-02-11T16:16:15+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/rc/202302111616/</loc>
+    <lastmod>2023-02-11T16:16:15+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/</loc>
+    <lastmod>2023-02-11T16:16:15+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/tags/%E9%97%B2%E8%B0%88/</loc>
+    <lastmod>2023-02-11T16:16:15+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/tags/%E5%B7%A5%E4%BD%9C/</loc>
     <lastmod>2022-11-12T07:39:25+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/rc/202211120739/</loc>
@@ -41,10 +50,10 @@
     <loc>https://boom.moli.ga/tags/win10/</loc>
     <lastmod>2022-04-30T18:13:57+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/rc/202204301813/</loc>
+    <loc>https://boom.moli.ga/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2022-04-30T18:13:57+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>https://boom.moli.ga/rc/202204301813/</loc>
     <lastmod>2022-04-30T18:13:57+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
@@ -62,13 +71,13 @@
     <loc>https://boom.moli.ga/tags/office/</loc>
     <lastmod>2022-04-11T20:30:06+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/kj/202204112030/</loc>
-    <lastmod>2022-04-11T20:30:06+08:00</lastmod>
-  </url><url>
     <loc>https://boom.moli.ga/tags/%E6%BF%80%E6%B4%BB/</loc>
     <lastmod>2022-04-11T20:30:06+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/tags/%E7%A0%B4%E8%A7%A3/</loc>
+    <lastmod>2022-04-11T20:30:06+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/kj/202204112030/</loc>
     <lastmod>2022-04-11T20:30:06+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/tags/windows/</loc>
@@ -98,20 +107,17 @@
     <loc>https://boom.moli.ga/tags/%E5%9B%B0/</loc>
     <lastmod>2022-03-31T14:34:55+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/tags/%E6%97%A0%E8%81%8A/</loc>
-    <lastmod>2022-03-31T14:34:55+08:00</lastmod>
-  </url><url>
     <loc>https://boom.moli.ga/tags/%E7%9D%A1%E8%A7%89/</loc>
     <lastmod>2022-03-31T14:34:55+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/tags/%E7%9B%B8%E4%BA%B2/</loc>
-    <lastmod>2022-03-31T13:21:38+08:00</lastmod>
+    <loc>https://boom.moli.ga/tags/%E6%97%A0%E8%81%8A/</loc>
+    <lastmod>2022-03-31T14:34:55+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/rc/202203311321/</loc>
     <lastmod>2022-03-31T13:21:38+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/tags/%E5%B7%A5%E4%BD%9C/</loc>
-    <lastmod>2022-03-31T12:26:39+08:00</lastmod>
+    <loc>https://boom.moli.ga/tags/%E7%9B%B8%E4%BA%B2/</loc>
+    <lastmod>2022-03-31T13:21:38+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/rc/202203311226/</loc>
     <lastmod>2022-03-31T12:26:39+08:00</lastmod>
@@ -128,19 +134,16 @@
     <loc>https://boom.moli.ga/rc/202203242341/</loc>
     <lastmod>2022-03-24T23:41:25+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/tags/%E9%97%B2%E8%B0%88/</loc>
-    <lastmod>2022-03-24T23:41:25+08:00</lastmod>
+    <loc>https://boom.moli.ga/tags/%E7%94%B5%E8%A7%86%E5%89%A7/</loc>
+    <lastmod>2022-03-23T22:55:00+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/tags/%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2022-03-23T22:55:00+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/rc/202203232254/</loc>
     <lastmod>2022-03-23T22:55:00+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/tags/%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2022-03-23T22:55:00+08:00</lastmod>
-  </url><url>
-    <loc>https://boom.moli.ga/tags/%E7%94%B5%E8%A7%86%E5%89%A7/</loc>
-    <lastmod>2022-03-23T22:55:00+08:00</lastmod>
-  </url><url>
-    <loc>https://boom.moli.ga/tags/%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2022-03-23T22:55:00+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/rc/202203232249/</loc>
@@ -191,19 +194,19 @@
     <loc>https://boom.moli.ga/tags/v2ray/</loc>
     <lastmod>2022-03-03T19:10:37+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/kj/202203031910/</loc>
-    <lastmod>2022-03-03T19:10:37+08:00</lastmod>
-  </url><url>
     <loc>https://boom.moli.ga/tags/%E7%BF%BB%E5%A2%99/</loc>
     <lastmod>2022-03-03T19:10:37+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2022-03-03T19:10:37+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/rc/202203031741/</loc>
-    <lastmod>2022-03-03T17:42:08+08:00</lastmod>
+    <loc>https://boom.moli.ga/kj/202203031910/</loc>
+    <lastmod>2022-03-03T19:10:37+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/tags/%E7%96%AB%E6%83%85/</loc>
+    <lastmod>2022-03-03T17:42:08+08:00</lastmod>
+  </url><url>
+    <loc>https://boom.moli.ga/rc/202203031741/</loc>
     <lastmod>2022-03-03T17:42:08+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/happy/</loc>
@@ -218,10 +221,10 @@
     <loc>https://boom.moli.ga/happy/202203031537/</loc>
     <lastmod>2022-03-03T15:37:17+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/rc/202203031524/</loc>
+    <loc>https://boom.moli.ga/tags/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2022-03-03T15:24:03+08:00</lastmod>
   </url><url>
-    <loc>https://boom.moli.ga/tags/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://boom.moli.ga/rc/202203031524/</loc>
     <lastmod>2022-03-03T15:24:03+08:00</lastmod>
   </url><url>
     <loc>https://boom.moli.ga/rc/untitled/</loc>
